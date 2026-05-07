@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyc
+
+# Virtual env
+.venv/
+
+# Test / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+htmlcov/
+
+# Database
+queue.db
+
+# Logs
+logs/
+
+# Dashboard layout storage (uploaded images are runtime data)
+dashboard_layout/
+
+# Google service account / local credentials
+*.json
+!package*.json
+!tsconfig*.json
+!jsconfig*.json
+!dashboard_layout/layout.json
+!rich_menus/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables (secrets, tokens, etc.)
+.env
+.env.local
+
+# Flask / FastAPI deploy artifacts
+www/
+
+# OS / Editor
+Thumbs.db
+.DS_Store
